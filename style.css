@@ -1,0 +1,79 @@
+* /*estilização global*/{
+    margin: 0;/*tira margin automatica*/
+    padding: 0;/*tira o paddin automatico*/
+    font-family: "Roboto", sans-serif;/*fonte global*/
+    box-sizing: border-box;/*nao deixa o conteudo o paddin aumentar o tamanho caixa pra fora*/
+  }
+  
+  ul /*lista nao ordemana */{
+    list-style: none;/*tira os pontinhos da lista*/
+  }
+  
+  body/*caixa contendo tudo*/ {
+    text-align: center;/*centraliza todo conteudo da pagina*/
+    background-color: #121214;
+    background-image: url(./assets/bg.svg);
+    background-position: center 55.6%; /* eixo x depois y*/
+  }
+  
+  main /*caixa principal*/ {
+    width: fit-content; /* encaixa o conteudo na caixa*/
+    margin: 52px auto; /*sentido horario*/
+  }
+  
+  header /*sintase de cabeçalho*/{
+    margin-bottom: 63px;/*espaço a abaixo*/
+  }
+  
+  .card/*classe do cartão que contem o restante do conteudo*/ {
+    padding: 32px;
+    text-align: center;
+    background: #1d1c19;
+    border-bottom: 2px solid #f7dd43;
+    border-radius: 6px;/*arredonda a pagina*/
+    margin-bottom: 32px;
+  }
+  
+  .card h2 { 
+    display: flex;/*libera a utilização do gab e align-items:*/
+    gap: 16px; /*espaço entre a data e o dia da semana */
+    align-items: center;/*centraliza os itens*/
+    padding: 8px 16px;
+    border: 1px solid #746615;
+    border-radius: 6px;
+    width: fit-content;/*se encaixa ao conteudo */
+    margin-inline: auto; /*margin em linha*/
+    margin-bottom: 53px;
+    color: #f7dd43;
+  }
+  /*ia comentar tudo mas desisti se vira pra entender*/
+  .card h2 span {
+    color: #e1e1e6;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 270px;
+  }
+  
+  .card ul li  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card ul li + li {
+    padding-top: 24px;
+    border-top: 1px solid #323238;
+  }
+  
+  .card ul li strong {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 125%;
+    color: #E1E1E6;
+  }
