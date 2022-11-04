@@ -32,8 +32,14 @@
     border-bottom: 2px solid #f7dd43;
     border-radius: 6px;/*arredonda a pagina*/
     margin-bottom: 32px;
+    opacity: 0;
+    animation: oqVcQuiser.3s forwards;
   }
-  
+ 
+  .card:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
   .card h2 { 
     display: flex;/*libera a utilização do gab e align-items:*/
     gap: 16px; /*espaço entre a data e o dia da semana */
@@ -66,8 +72,9 @@
     justify-content: space-between;
   }
   
-  .card ul li + li {
+  .card ul + ul{
     padding-top: 24px;
+    margin-top: 24px;
     border-top: 1px solid #323238;
   }
   
@@ -77,3 +84,19 @@
     line-height: 125%;
     color: #E1E1E6;
   }
+
+  /*animação*/
+
+  @keyframes oqVcQuiser{
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+ 
+
