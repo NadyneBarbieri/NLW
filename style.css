@@ -13,6 +13,7 @@
     text-align: center;/*centraliza todo conteudo da pagina*/
     background-color: #121214;
     background-image: url(./assets/bg.svg);
+    
     background-position: center 55.6%; /* eixo x depois y*/
   }
   
@@ -33,7 +34,7 @@
     border-radius: 6px;/*arredonda a pagina*/
     margin-bottom: 32px;
     opacity: 0;
-    animation: oqVcQuiser.3s forwards;
+    animation: oqVcQuiser 1.5s forwards;
   }
  
   .card:hover {
@@ -74,7 +75,7 @@
   
   .card ul + ul{
     padding-top: 24px;
-    margin-top: 24px;
+    margin-top: 30px;
     border-top: 1px solid #323238;
   }
   
@@ -89,13 +90,27 @@
 
   @keyframes oqVcQuiser{
     0% {
-      transform: translateY(-50px);
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+
+    50%{
       opacity: 0;
     }
   
     100% {
-      opacity: 1;
+      transform: translateY(100px);
+      opacity: 100;
     }
+  }
+
+  @media (min-width:920px) {
+    .card{
+      max-width: 333.94px; /*apartir desse numero faz a quebra de linha*/
+      flex-flow: row; /*linha*/
+      flex-wrap: wrap;/*faz a quebra de linha*/
+    }
+    
   }
   
  

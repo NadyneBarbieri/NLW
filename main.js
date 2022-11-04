@@ -1,3 +1,5 @@
+var a = 0;
+
 document.querySelector("#cards").innerHTML=
 Card("24/11","quinta",
 Jogo("brasil","india","12:00")+ 
@@ -14,11 +16,12 @@ Jogo("brasil","india","13:00")+
 Jogo("brasil","india","13:00")+
 Jogo("brasil","india","13:00"))
 
-var a = 0;
+
 function Card(data, dia,i){ 
-   a = a +0.4;
+console.log(a)
+   a = a + 0.3;
     return`
-    <div class="card" style="animation-delay:${a}s">
+    <div class="card" style="animation-delay: ${a}s">
         <h2>
             ${data}
             <span>${dia}</span> 
