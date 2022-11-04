@@ -13,20 +13,38 @@
     text-align: center;/*centraliza todo conteudo da pagina*/
     background-color: #121214;
     background-image: url(./assets/bg.svg);
-    
+    background-repeat:no-repeat; /*não deixa repetir a imagem*/
+    background-size: cover;/* mantem a posição do background como cover*/
     background-position: center 55.6%; /* eixo x depois y*/
   }
   
   main /*caixa principal*/ {
-    width: fit-content; /* encaixa o conteudo na caixa*/
+    width: 100%; /* encaixa o conteudo na caixa*/
+    
     margin: 52px auto; /*sentido horario*/
   }
   
   header /*sintase de cabeçalho*/{
     margin-bottom: 63px;/*espaço a abaixo*/
   }
-  
+
+  #cards{
+    /* border: 1px solid red;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    gap:30px;
+    flex-wrap: wrap;/*faz a quebra de linha*/  
+    display: grid; /*display em grade*/
+    justify-items: center;/*coloca os cads no centro*/
+    gap:30px; /*espaço entre os cards */
+    grid-template-columns: repeat(auto-fit, minmax(333.94px, 1fr)); /*grade de cads se repetindo em fraçoes */
+  } 
+ 
+
   .card/*classe do cartão que contem o restante do conteudo*/ {
+   
+    max-width: 333.94px; /*apartir desse numero faz a quebra de linha*/ 
     padding: 32px;
     text-align: center;
     background: #1d1c19;
@@ -95,23 +113,11 @@
     }
 
     50%{
-      opacity: 0;
+      opacity: 0.5;
     }
   
     100% {
-      transform: translateY(100px);
-      opacity: 100;
+      transform: translateY(0px);
+      opacity: 1;
     }
   }
-
-  @media (min-width:920px) {
-    .card{
-      max-width: 333.94px; /*apartir desse numero faz a quebra de linha*/
-      flex-flow: row; /*linha*/
-      flex-wrap: wrap;/*faz a quebra de linha*/
-    }
-    
-  }
-  
- 
-

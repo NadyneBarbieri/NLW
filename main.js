@@ -14,7 +14,40 @@ Jogo("brasil","india","13:00"))+
 Card("02/12","sexta",
 Jogo("brasil","india","13:00")+ 
 Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00"))
+Jogo("brasil","india","13:00"))+
+
+Card("02/12","sexta",
+Jogo("brasil","india","13:00")+ 
+Jogo("brasil","india","13:00")+
+Jogo("brasil","india","13:00")) +
+Card("02/12","sexta",
+Jogo("brasil","india","13:00")+ 
+Jogo("brasil","india","13:00")+
+Jogo("brasil","india","13:00")) +
+Card("02/12","sexta",
+Jogo("brasil","india","13:00")+ 
+Jogo("brasil","india","13:00")+
+Jogo("brasil","india","13:00"))+
+Card("02/12","sexta",
+Jogo("brasil","india","13:00")+ 
+Jogo("brasil","india","13:00")+
+Jogo("brasil","india","13:00"))+
+Card("02/12","sexta",
+Jogo("brasil","india","13:00")+ 
+Jogo("brasil","india","13:00")+
+Jogo("brasil","india","13:00"))+
+Card("02/12","sexta",
+Jogo("brasil","india","13:00")+ 
+Jogo("brasil","india","13:00")+
+Jogo("brasil","india","13:00"))+
+Card("02/12","sexta",
+Jogo("brasil","india","13:00")+ 
+Jogo("brasil","india","13:00")+
+Jogo("brasil","india","13:00")) 
+
+
+
+
 
 
 function Card(data, dia,i){ 
