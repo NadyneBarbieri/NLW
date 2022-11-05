@@ -2,53 +2,29 @@ var a = 0;
 
 document.querySelector("#cards").innerHTML=
 Card("24/11","quinta",
-Jogo("brasil","india","12:00")+ 
-Jogo("brasil","india","13:00")+ 
-Jogo("brasil","india","13:00"))+
+Jogo("Brasil","Armênia","12:00")+ 
+Jogo("Camarões","Colômbia","13:00")+ 
+Jogo("India","Japan","14:00"))+
 
 Card("28/11","segunda",
-Jogo("japan","india","13:00")+
-Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00"))+
+Jogo("Jordania","Argentina","15:00")+
+Jogo("Hungria","Brasil","16:00")+
+Jogo("Camarões","Colômbia","17:00"))+
 
 Card("02/12","sexta",
-Jogo("brasil","india","13:00")+ 
-Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00"))+
+Jogo("India","Japan","18:00")+ 
+Jogo("Jordania","Argentina","19:00")+
+Jogo("Hungria","Armênia","20:00"))+
 
 Card("02/12","sexta",
-Jogo("brasil","india","13:00")+ 
-Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00")) +
-Card("02/12","sexta",
-Jogo("brasil","india","13:00")+ 
-Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00")) +
-Card("02/12","sexta",
-Jogo("brasil","india","13:00")+ 
-Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00"))+
-Card("02/12","sexta",
-Jogo("brasil","india","13:00")+ 
-Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00"))+
-Card("02/12","sexta",
-Jogo("brasil","india","13:00")+ 
-Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00"))+
-Card("02/12","sexta",
-Jogo("brasil","india","13:00")+ 
-Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00"))+
-Card("02/12","sexta",
-Jogo("brasil","india","13:00")+ 
-Jogo("brasil","india","13:00")+
-Jogo("brasil","india","13:00")) 
+Jogo("India","Japan","18:00")+ 
+Jogo("Jordania","Argentina","19:00")+
+Jogo("Hungria","Armênia","20:00"))+
 
-
-
-
-
+Card("02/12","sexta",
+Jogo("India","Japan","18:00")+ 
+Jogo("Jordania","Argentina","19:00")+
+Jogo("Hungria","Armênia","20:00"))
 
 function Card(data, dia,i){ 
 console.log(a)
